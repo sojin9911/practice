@@ -33,8 +33,8 @@ h1{
     line-height: 30px;
 }
 
-.bold{
-    font-weight: bold;
+.contents2{
+    font-size: 18px;
 }
 
 
@@ -202,49 +202,52 @@ h1{
     width: 1280px;
     height: 427px;
     display: flex;
-    margin: auto;
-    background-color: #2F7AF4;
+    margin: 49px auto;
+    
 }
 
-.service > .serWrap >.leftSec{
-
+.service > .serWrap >.rightSec{
+    padding: 20px;
 }
+.service > .serWrap >.rightSec > h2{
+    margin-bottom: 27px;
+}
+
+
 
 /* service Fin */
 
+
+
 .contact{
     width: 100%;
-    height: 420px;
+    height: 418px;
     background-image: url("/img/flash-4244923_1920.png");
-    padding: 138px auto;
 }
 
-.contact >.conWrap {
-    padding: 138px 244px;
+.contact > ul{
+    display: flex;
+    padding-top: 138px;
 }
 
-.contact > .conWrap > p,
-.contact > .conWrap > .more{
-    color: #fff;
+.contact > ul > li{
+    flex: 1;
     text-align: center;
-    background: chartreuse;
-    
 }
 
-.contact > .conWrap > p:first-child{
-    font-size: 48px;
+.contact > ul > li > div >h1,
+.contact > ul > li > div{
+    color: #fff;
 }
 
-
-.contact > .conWrap > .more{
-    border: 1px solid #fff;
+.more2{
     width: 220px;
     height: 40px;
     line-height: 40px;
-    
+    margin: 16px auto;
+    border: 1px solid #fff;
+    cursor: pointer;
 }
-
-
 
 .footer{
     width: 100%;
