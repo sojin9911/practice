@@ -222,7 +222,7 @@ h1{
 .contact{
     width: 100%;
     height: 418px;
-    background-image: url("/img/flash-4244923_1920.png");
+    background-image: url("img/flash-4244923_1920.png");
 }
 
 .contact > ul{
@@ -235,7 +235,7 @@ h1{
     text-align: center;
 }
 
-.contact > ul > li > div >h1,
+.contact > ul > li > div > h1,
 .contact > ul > li > div{
     color: #fff;
 }
