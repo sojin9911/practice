@@ -32,6 +32,10 @@ h1{
     text-align: center;
     line-height: 30px;
 }
+.moreButton:hover{
+    background-color: #2F7AF4;
+    color: #fff;
+}
 
 .contents2{
     font-size: 18px;
